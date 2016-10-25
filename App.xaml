@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TipCal.App">
+  <Application.Resources>
+    <!-- Application resource dictionary -->
+    <ResourceDictionary>
+      <Color x:Key="bgColor">#c0c0c0</Color>
+      <Style x:Key="baseLabelStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="Red" />
+      </Style>
+      <Style x:Key="baseLabelNormalStyle" TargetType="Label">
+        <Setter Property="TextColor" Value="Red" />
+      </Style>
+      <Style x:Key="baseLayoutStyle" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="White" />
+      </Style>
+      <Style x:Key="baseButtonStyle" TargetType="Button">
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="BorderColor" Value="Black"/>
+      </Style>
+      <Style x:Key="infoTotalLabelStyle" BasedOn="{StaticResource baseLabelStyle}" TargetType="Label">
+      </Style>
+      <Style x:Key="baseEntryStyle" TargetType="Entry">
+        <Setter Property="TextColor" Value="Gray" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
